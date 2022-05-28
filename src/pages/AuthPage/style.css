@@ -1,0 +1,27 @@
+.sign-in-icon {
+  cursor: pointer;
+  border: 1.5px #b4abab solid;
+  border-radius: 8px;
+  padding: 12px 24px;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.form-border-right {
+  border-right-style: solid;
+  border-width: 1px;
+  border-color: #dee0e1;
+  margin: 0 48px;
+}
+
+.auth-header p {
+  margin: 24px 0;
+  font-size: 16px;
+}
+
+.wrapper-sign-in-progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}

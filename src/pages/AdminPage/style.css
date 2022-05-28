@@ -1,0 +1,52 @@
+/* login admin */
+
+.wrapper-admin-auth {
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #f2f3f5;
+}
+
+.content-admin-auth {
+  width: 472px;
+  padding: 24px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 2px -1px rgb(0 0 0 / 15%);
+}
+
+/* over view */
+
+.over-view-box {
+  background-color: white;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+}
+
+.over-view-box .admin-page-header {
+  margin-bottom: 0;
+}
+
+.over-view-top,
+.over-view-bottom {
+  display: flex;
+  margin-left: -16px;
+  margin-bottom: 16px;
+}
+
+.over-view-top-item {
+  width: calc(100% / 3 - 16px);
+  margin-left: 16px;
+}
+
+.over-view-chart {
+  width: calc(100% / 2 - 16px);
+  margin-left: 16px;
+}
+
+.title-overview {
+  font-weight: 600;
+}

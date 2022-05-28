@@ -1,0 +1,16 @@
+.post-action svg {
+  width: 24px;
+  height: 24px;
+}
+
+.wrapper-admin-action {
+  width: 140px;
+}
+
+.content-admin-action hr {
+  margin: 12px 0;
+}
+
+.admin-action-item {
+  cursor: pointer;
+}

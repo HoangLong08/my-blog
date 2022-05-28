@@ -1,0 +1,23 @@
+.wrapper-admin-main {
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f7;
+}
+
+.wrapper-admin-box {
+  width: calc(100% - 220px);
+  max-height: calc(100vh - 64px - 48px);
+  min-height: calc(100vh - 64px - 48px);
+  overflow: auto;
+  margin-top: calc(64px + 24px);
+  margin-left: calc(220px + 24px);
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.admin-box {
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 1px 1px rgb(0 0 0 / 8%);
+}

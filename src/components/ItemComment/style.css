@@ -1,0 +1,94 @@
+.wrapper-item-comment {
+  display: flex;
+  margin-top: 16px;
+}
+
+.wrapper-item-img-comment {
+  flex-shrink: 0;
+  width: 36px;
+}
+
+.wrapper-item-img-comment img {
+  border-radius: 50%;
+  height: 36px;
+  object-fit: cover;
+  text-align: center;
+  width: 100%;
+}
+
+.wrapper-item-body-comment {
+  flex: 1 1;
+  margin-left: 8px;
+  padding-left: 4px;
+}
+
+.item-content-comment {
+  background-color: #f2f3f5;
+  border-radius: 18px;
+  color: #1c1e21;
+  display: inline-block;
+  max-width: 586px;
+  min-width: 120px;
+  padding: 9px 12px;
+}
+
+.item-name-comment {
+  color: black;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0;
+}
+
+.item-text-comment {
+  color: black;
+  margin-bottom: 0;
+  margin-top: 4px;
+}
+
+.item-action-comment {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.item-action-comment .item-action-icon {
+  margin-right: 12px;
+  font-size: 14px;
+  color: #e9687e;
+  cursor: pointer;
+}
+
+.item-action-comment .item-action-icon:first-letter {
+  text-transform: capitalize;
+}
+
+.item-action-icon svg {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.item-action-icon svg path {
+  color: #999;
+}
+
+.item-action-comment .item-action-icon:nth-child(3) {
+  color: #999;
+}
+
+.status-icon-comment {
+  position: relative;
+  cursor: pointer;
+}
+
+.status-icon-comment img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.5s;
+}
+
+.status-icon-comment img:hover {
+  transform: scale(1.3);
+}

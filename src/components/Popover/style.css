@@ -1,0 +1,37 @@
+.content-popover {
+  z-index: 9999;
+  inset: 16px 0px auto auto;
+  margin: 0px;
+  position: absolute;
+  background-color: white;
+  padding: 6px 0;
+  border-radius: 12px;
+  min-width: 160px;
+  box-shadow: 0 -4px 32px rgb(0 0 0 / 20%);
+  color: #1d2129;
+  font-size: 16px;
+  z-index: 99;
+}
+
+.content-popover {
+  display: none;
+}
+
+.wrapper-popover:hover .content-popover {
+  display: block;
+}
+
+.item-popover {
+  padding: 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.item-popover:hover {
+  background-color: #f0f0f0;
+  color: #292929;
+}
+
+.wrapper-popover {
+  position: relative;
+}

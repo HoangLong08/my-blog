@@ -1,0 +1,113 @@
+.wrapper-header {
+  display: flex;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+
+  height: 64px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.15);
+  z-index: 9;
+}
+
+.content-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-admin {
+  width: 100%;
+  padding: 0 24px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.title-logo {
+  font-weight: 600;
+}
+
+.ant-space-item svg.header-bell {
+  width: 32px;
+  height: 32px;
+}
+
+.ant-space-item svg.header-bell path {
+  stroke: #828282;
+}
+
+.image-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header-menu {
+  display: block;
+  padding: 8px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* notify */
+
+.wrapper-box-notify {
+  width: 300px;
+}
+
+.header-notify {
+  padding: 0px 6px 0;
+  margin-bottom: 12px;
+}
+
+.title-notify {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.main-notify {
+  max-height: calc(100vh - 195px);
+  overflow: auto;
+}
+
+.item-notify {
+  display: flex;
+  padding: 6px;
+  gap: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+
+.item-notify:hover {
+  background-color: rgba(22, 24, 35, 0.05);
+}
+
+.item-notify-left {
+  border-radius: 50%;
+  flex-shrink: 0;
+  height: 56px;
+  overflow: hidden;
+  width: 56px;
+}
+
+.item-notify-left img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.item-notify-content {
+  font-size: 13px;
+}
+
+.item-notify-time {
+  font-size: 12px;
+  color: #e83956;
+}

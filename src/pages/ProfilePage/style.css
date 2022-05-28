@@ -1,0 +1,38 @@
+.wrapper-profile-main {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-profile-box {
+  width: calc(100% - 220px - 48px);
+  /* min-height: calc(100vh - 64px - 48px); */
+  margin-top: 64px;
+  margin-left: calc(220px + 24px);
+}
+
+.my-blog-item {
+  width: 66%;
+  border: 2px solid #e8e8e8;
+  border-radius: 16px;
+  margin-top: 16px;
+  padding: 16px 24px 22px;
+}
+
+.my-blog-title {
+  margin-bottom: 12px;
+}
+
+.my-blog-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.my-blog-item-head svg {
+  width: 24px;
+  height: 24px;
+}
+
+.my-blog-item-left {
+  width: calc(100% - 50px);
+}

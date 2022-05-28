@@ -1,0 +1,121 @@
+.rc-md-editor .rc-md-navigation .button-wrap .button {
+  min-width: 28px;
+}
+
+.rc-md-editor .rc-md-navigation .button-wrap .button {
+  color: #757575;
+  cursor: pointer;
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+  margin-right: 3px;
+  min-width: 28px;
+  position: relative;
+  text-align: center;
+}
+
+.rc-md-editor .rc-md-navigation .button-wrap .rmel-iconfont {
+  font-size: 20px;
+}
+
+.rc-md-editor {
+  border: none;
+}
+
+.rc-md-editor .editor-container .sec-md .input {
+  overflow-y: auto;
+}
+
+body .rc-md-editor .editor-container .sec-html {
+  border-left: 1px solid #ebebeb;
+}
+
+body .rc-md-editor:not(.full) .rc-md-navigation {
+  /*toolbar*/
+  background-color: #d7d7d7;
+  border-bottom: none;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  z-index: 3;
+}
+
+.rc-md-editor .editor-container {
+  z-index: 2;
+}
+
+.wrapper-post-action {
+  margin-top: 16px;
+  gap: 16px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 64px;
+  z-index: 4;
+  background-color: white;
+}
+
+.wrapper-form-big-blog {
+  min-height: calc(100vh - 100px);
+}
+
+.new-post-title {
+  border: none;
+  color: #292929;
+  font-size: 32px;
+  font-weight: 500;
+  min-height: 48px;
+  width: 100%;
+}
+
+.new-post-title[placeholder]:empty:before {
+  color: #b3b3b1;
+  content: attr(placeholder);
+  pointer-events: none;
+}
+
+.new-post-title[contentEditable] {
+  outline: 0px solid transparent;
+}
+
+div#new-post-title {
+  display: inline-block;
+}
+
+.wrapper-new-post-editor {
+  margin-top: 24px;
+}
+
+.wrapper-post-upload {
+  position: relative;
+}
+
+.content-post-upload {
+  position: absolute;
+  top: 40px;
+  right: 0%;
+  background-color: white;
+  width: 400px;
+  border-radius: 12px;
+  padding: 12px;
+  z-index: 9;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 12px 0px;
+}
+
+.content-post-upload p {
+  font-size: 12px;
+}
+
+.post-image-preview {
+  display: inline-block;
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  margin-top: 1rem;
+  overflow: hidden;
+  background-position: 50% center;
+  background-repeat: no-repeat;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(236, 236, 236);
+  border-image: initial;
+}
